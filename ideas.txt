@@ -1,0 +1,29 @@
+1️⃣ Layered Architecture (Best for Simplicity & Maintainability) ✅
+📂 src/main/java/com/kooking
+│── 📂 controller      (Handles API requests)
+│── 📂 service         (Business logic)
+│── 📂 repository      (Database queries)
+│── 📂 model           (Entities / DTOs)
+│── 📂 security        (JWT & authentication logic)
+│── 📂 config          (Configurations like CORS, Swagger)
+
+cany u help me bulit monolithic layered structure for my project based on
+https://github.com/jonashackt/spring-boot-vuejs
+Set up a proper development workflow:
+
+For frontend-only changes, use cd frontend && bun run serve
+For backend-only changes, use cd backend && mvn spring-boot:run
+For full-stack development, use the start script
+
+After implementing all these fixes, you have a much more robust Spring Boot and Vue.js project setup. Here's what you can do next:
+
+Test the full build process to ensure everything works properly:
+bashCopymvn clean install
+This should install dependencies, build the frontend, copy the frontend resources to the backend, and compile the backend.
+Start the application using your improved start script:
+bashCopy./start.sh  # Make sure it's executable with chmod +x start.sh
+This will launch both the backend and frontend with proper error handling.
+Access your application in a web browser:
+
+Frontend: http://localhost:8080
+Backend API: http://localhost:8098/api
