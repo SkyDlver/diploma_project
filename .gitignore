@@ -1,3 +1,5 @@
 # Project exclude paths
 /backend/target/
 /frontend/target/
+
+ideas.txt
