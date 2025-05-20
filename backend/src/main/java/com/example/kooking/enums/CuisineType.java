@@ -8,6 +8,7 @@ public enum CuisineType {
     JAPANESE,
     MEXICAN,
     MEDITERRANEAN,
+    Middle_Eastern,
     RUSSIAN,
     GERMAN,
     GREEK,

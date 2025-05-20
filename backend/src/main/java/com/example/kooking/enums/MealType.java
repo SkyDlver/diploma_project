@@ -1,4 +1,4 @@
 package com.example.kooking.enums;
 public enum MealType {
-    BREAKFAST, LUNCH, DINNER, SNACK
+    BREAKFAST, LUNCH, DINNER, SNACK, DESSERT, APPETIZER
 }

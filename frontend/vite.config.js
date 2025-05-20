@@ -16,7 +16,8 @@ export default defineConfig({
     port: 8080,
     proxy: {
       "/api": {
-        target: "https://mybackend.zrok.defgun.blog",
+        // target: "https://mybackend.zrok.defgun.blog",
+        target : "https://localhost:8098",
         changeOrigin: true,
         secure: false,
       },
