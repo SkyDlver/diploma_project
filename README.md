@@ -4,8 +4,11 @@
 
 ## 🎥 Kooking Application Demo
 
-Curious how Kooking works in action? Watch the full walkthrough below!
-👉 [Click here to watch on YouTube](https://www.youtube.com/watch?v=fW8X5SrybLA)
+[![Watch on YouTube](https://img.youtube.com/vi/fW8X5SrybLA/0.jpg)](https://www.youtube.com/watch?v=fW8X5SrybLA)
+
+> Curious how Kooking works in action?  
+> 🚀 **[Click here to watch the full walkthrough](https://www.youtube.com/watch?v=fW8X5SrybLA)**!
+
 
 - 🕓 **Time-based Recommendations** – Get recipe suggestions based on the current time of day.
 - 🧑‍🍳 **User-friendly Interface** – Intuitive design for easy navigation and recipe discovery.
