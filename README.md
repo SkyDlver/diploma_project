@@ -2,7 +2,10 @@
 
 **Kooking** is a smart, modern cooking companion that helps users discover personalized recipes based on their preferences, available ingredients, time of day, and more. Built as a Progressive Web App (PWA) for web and mobile, Kooking makes meal planning simple, fast, and enjoyable.
 
-## 🌟 Features
+## 🎥 Kooking Application Demo
+
+Curious how Kooking works in action? Watch the full walkthrough below!
+👉 [Click here to watch on YouTube](https://www.youtube.com/watch?v=fW8X5SrybLA)
 
 - 🕓 **Time-based Recommendations** – Get recipe suggestions based on the current time of day.
 - 🧑‍🍳 **User-friendly Interface** – Intuitive design for easy navigation and recipe discovery.
@@ -17,6 +20,15 @@
 - 🛒 **Shopping List** – Generate a shopping list based on selected recipes.
 - 📊 **Nutritional Information** – View nutritional details for each recipe.
 - 🗂 **Recipe Categories** – Browse recipes by categories like breakfast, lunch, dinner, and snacks.
+
+## 🖼️ Screenshots
+### 🍽️Home Page
+![image15.png](screenshots/image15.png)
+### 🍽️ Recipe Page
+![image1.png](screenshots/image1.png)
+### 🍽 Review Page
+![image13.png](screenshots/image13.png)
+## 🌟 Features
 
 ## 🛠️ Tech Stack
 
@@ -35,71 +47,12 @@
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa) – Database access
 - [Spring Security](https://spring.io/projects/spring-security) – Authentication and authorization
 - [Spring Web](https://spring.io/projects/spring-framework) – RESTful APIs
-- [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/current/reference/html/using.html#using.devtools) – Development tools
-- [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html) – Monitoring and management
-- [Spring Boot Starter Test](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html) – Testing framework
 - [H2 Database](https://www.h2database.com/html/main.html) – In-memory database for development
 - [PostgreSQL](https://www.postgresql.org/) – Production database
 - [MapStruct](https://mapstruct.org/) – Object mapping
 - [JUnit 5](https://junit.org/junit5/) – Testing framework
 - [Mockito](https://site.mockito.org/) – Mocking framework
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/en/download/) installed (LTS version recommended)
-- [Bun](https://bun.sh/) installed (`curl -fsSL https://bun.sh/install | bash`)
-- [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) installed
-- Maven
-
----
-
-## 🧩 Backend Setup (Spring Boot)
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/kooking.git
-   cd kooking/backend
-   run  the application and tests
-## Frontend Setup (Vue 3)
-cd kooking/frontend
-npm install
-# OR
-bun install
-
-run
-bun run dev
-
-# 🍳 Kooking – Smart Recipe Generator
-
-**Kooking** is a smart, modern cooking companion that helps users discover personalized recipes based on their preferences, available ingredients, time of day, and more. Built as a Progressive Web App (PWA) for web and mobile, Kooking makes meal planning simple, fast, and enjoyable.
-
-## 🌟 Features
-
-* 🕓 **Time-based Recommendations** – Get recipe suggestions based on the current time of day.
-* 🍽️ **Smart Filtering** – Filter recipes by ingredients and country/cuisine.
-* 🔐 **User Accounts** – Register, log in, and manage your saved recipes.
-* 📲 **Cross-Platform** – Works on both web and Android (PWA).
-* 🔁 **Looping Timer UI** – A visual timer element reflects time and suggests meals accordingly.
-* 💡 **Personalized Suggestions** – Learns user preferences over time to recommend smarter meals.
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-* [Vue 3](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/)
-* [Pinia](https://pinia.vuejs.org/) – State management
-* [Axios](https://axios-http.com/) – API calls
-* [Bun](https://bun.sh/) – JavaScript runtime and package manager
-
-### Backend
-
-* [Spring Boot 3](https://spring.io/projects/spring-boot)
-* RESTful API architecture
-* Java 17+
-* H2 (file-based) or PostgreSQL
-
+- [Lombok](https://projectlombok.org/) – Boilerplate code reduction
 ---
 
 ## 🚀 Getting Started
